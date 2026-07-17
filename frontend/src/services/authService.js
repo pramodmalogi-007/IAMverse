@@ -1,5 +1,5 @@
 // frontend/src/services/authService.js
-
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
 const parseResponse = async (response) => {
   const data = await response.json().catch(() => ({}));
 
@@ -26,8 +26,7 @@ export const signupUser = async (payload) => {
 };
 
 export async function loginUser(credentials) {
-  const response = await fetch("http://localhost:5000/api/auth/login", {
-    method: "POST",
+const response = await fetch(`${API_BASE}/api/auth/login`, {    method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(credentials),
   });
@@ -46,8 +45,7 @@ export async function loginUser(credentials) {
 // Forgot password
 
 export const sendForgotPasswordOtp = async (email) => {
-  const response = await fetch("/api/auth/forgot-password/send-otp", {
-    method: "POST",
+const response = await fetch(`${API_BASE}/api/auth/forgot-password/send-otp`, {    method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
