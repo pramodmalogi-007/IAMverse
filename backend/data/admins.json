@@ -1,0 +1,14 @@
+[
+  {
+    "id": "74c33d92-fd29-4762-9d70-c30940dc61bf",
+    "email": "superadmin@gmail.com",
+    "passwordHash": "$2b$12$UqoYBfAkPZKFHskyAM9MnOjxlGJtgvYuadV81.Osd3Hx6OLycgAUG",
+    "name": "Super Admin",
+    "role": "admin",
+    "createdAt": "2026-07-06T14:40:07.560Z",
+    "updatedAt": "2026-07-16T09:31:09.582Z",
+    "loginOtp": null,
+    "loginOtpExpiry": null,
+    "otpAttempts": 0
+  }
+]

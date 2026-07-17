@@ -1,0 +1,3216 @@
+[
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q1",
+    "number": 1,
+    "text": "What type of organization are you?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q1_a",
+        "label": "Startup (< 50 employees)",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q1_b",
+        "label": "Small-Medium Business (50–500)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q1_c",
+        "label": "Large Enterprise (500–5,000)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q1_d",
+        "label": "Global Enterprise (5,000+)",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q1_e",
+        "label": "Government / Public Sector",
+        "scores": {
+          "oracle": 5,
+          "ibm": 5
+        }
+      },
+      {
+        "id": "q1_f",
+        "label": "Non-Profit / Education",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:53:31.568Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q2",
+    "number": 2,
+    "text": "Which industry sector best describes your organization?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q2_a",
+        "label": "Financial Services / Banking",
+        "scores": {
+          "ping": 5
+        }
+      },
+      {
+        "id": "q2_b",
+        "label": "Healthcare / Life Sciences",
+        "scores": {
+          "sailpoint": 5,
+          "saviynt": 5
+        }
+      },
+      {
+        "id": "q2_c",
+        "label": "Technology / SaaS",
+        "scores": {
+          "okta": 5,
+          "entra": 5,
+          "oracle": 6
+        }
+      },
+      {
+        "id": "q2_d",
+        "label": "E-commerce / Retail",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q2_e",
+        "label": "Manufacturing / Industrial",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q2_f",
+        "label": "Government / Defense",
+        "scores": {
+          "oracle": 5,
+          "ibm": 5
+        }
+      },
+      {
+        "id": "q2_g",
+        "label": "Education / Research",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q2_h",
+        "label": "Other",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.266Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q3",
+    "number": 3,
+    "text": "How many user identities need to be managed?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q3_a",
+        "label": "< 100 identities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q3_b",
+        "label": "100 – 1,000 identities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q3_c",
+        "label": "1,000 – 10,000 identities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q3_d",
+        "label": "10,000 – 100,000 identities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q3_e",
+        "label": "100,000+ identities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q3_f",
+        "label": "Unsure / not determined",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.290Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q4",
+    "number": 4,
+    "text": "What is your current IAM maturity level?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q4_a",
+        "label": "Level 1 – No formal IAM in place",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q4_b",
+        "label": "Level 2 – Basic AD/LDAP, manual processes",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q4_c",
+        "label": "Level 3 – Partial automation, some SSO",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q4_d",
+        "label": "Level 4 – Mature IAM with governance",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q4_e",
+        "label": "Level 5 – Advanced zero-trust, AI-driven IAM",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.333Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q5",
+    "number": 5,
+    "text": "What is your expected identity growth rate over 3 years?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q5_a",
+        "label": "Flat / stable (< 10% growth)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q5_b",
+        "label": "Moderate growth (10–50%)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q5_c",
+        "label": "High growth (50–200%)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q5_d",
+        "label": "Hyper-growth / unpredictable (200%+)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.373Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q6",
+    "number": 6,
+    "text": "Do you have subsidiaries, joint ventures, or M&A activity in scope?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q6_a",
+        "label": "No – single legal entity only",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q6_b",
+        "label": "Yes – multiple subsidiaries (same IAM platform)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q6_c",
+        "label": "Yes – federated entities (separate IAM)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q6_d",
+        "label": "Yes – active M&A / frequent acquisitions",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.392Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q7",
+    "number": 7,
+    "text": "Which authentication methods are required?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q7_a",
+        "label": "Single Sign-On (SSO)",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q7_b",
+        "label": "Multi-Factor Authentication (MFA)",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q7_c",
+        "label": "Passwordless / FIDO2 / Biometric",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q7_d",
+        "label": "Social Login (Google, Microsoft, etc.)",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q7_e",
+        "label": "SAML 2.0 Federation",
+        "scores": {
+          "ping": 5
+        }
+      },
+      {
+        "id": "q7_f",
+        "label": "OpenID Connect (OIDC)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q7_g",
+        "label": "Kerberos / Windows Integrated Auth",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q7_h",
+        "label": "Certificate-based Auth (PKI / X.509)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q7_i",
+        "label": "Adaptive / Risk-based MFA",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q7_j",
+        "label": "Hardware Token (YubiKey, RSA)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.423Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q8",
+    "number": 8,
+    "text": "Do you need Customer Identity (CIAM)?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q8_a",
+        "label": "Yes – customer-facing product login",
+        "scores": {
+          "okta": 5,
+          "ping": 10,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "q8_b",
+        "label": "Yes – both customers and employees",
+        "scores": {
+          "okta": 5,
+          "ping": 10,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "q8_c",
+        "label": "No – workforce / employees only",
+        "scores": {
+          "okta": 5,
+          "ping": 10,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "q8_d",
+        "label": "Not sure yet",
+        "scores": {
+          "okta": 5,
+          "ping": 10,
+          "forgerock": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.457Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q9",
+    "number": 9,
+    "text": "What identity lifecycle capabilities do you require?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q9_a",
+        "label": "Automated onboarding (joiner)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_b",
+        "label": "Role change / transfer (mover)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_c",
+        "label": "Automated offboarding (leaver)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_d",
+        "label": "SCIM 2.0 provisioning",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_e",
+        "label": "HR-driven identity sync",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_f",
+        "label": "Self-service profile management",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_g",
+        "label": "Delegated administration",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q9_h",
+        "label": "Guest / external identity management",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.482Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q10",
+    "number": 10,
+    "text": "How important is developer experience (SDKs, APIs, documentation)?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q10_a",
+        "label": "Not needed – no custom development",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q10_b",
+        "label": "Low – minimal API usage",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q10_c",
+        "label": "Moderate – some custom integrations",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q10_d",
+        "label": "High – significant custom app development",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q10_e",
+        "label": "Critical – developer platform is a core requirement",
+        "scores": {
+          "okta": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.501Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q11",
+    "number": 11,
+    "text": "What is the primary identity store / source of truth today?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q11_a",
+        "label": "Microsoft Active Directory (on-prem)",
+        "scores": {
+          "entra": 10
+        }
+      },
+      {
+        "id": "q11_b",
+        "label": "Azure AD / Entra ID",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q11_c",
+        "label": "Google Workspace",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q11_d",
+        "label": "Workday / SAP SuccessFactors (HR system)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q11_e",
+        "label": "No existing identity store",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q11_f",
+        "label": "Custom / home-built user database",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q11_g",
+        "label": "Multiple fragmented sources",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q11_h",
+        "label": "Other LDAP / directory",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.519Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q12",
+    "number": 12,
+    "text": "Do you require machine / workload identities in addition to human identities?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q12_a",
+        "label": "No – human users only",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q12_b",
+        "label": "Yes – service accounts (Windows / Linux)",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q12_c",
+        "label": "Yes – cloud workload identities (AWS, Azure, GCP)",
+        "scores": {
+          "okta": 5,
+          "entra": 5,
+          "saviynt": 10
+        }
+      },
+      {
+        "id": "q12_d",
+        "label": "Yes – Kubernetes / container identities",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q12_e",
+        "label": "Yes – IoT / OT device identities",
+        "scores": {
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "q12_f",
+        "label": "Yes – CI/CD pipeline credentials",
+        "scores": {
+          "hashicorp": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.537Z"
+  },
+  {
+    "section": 2,
+    "sectionTitle": "Identity Management",
+    "id": "q13",
+    "number": 13,
+    "text": "How important is self-service identity management for end users?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q13_a",
+        "label": "Not important – IT team handles all identity tasks",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q13_b",
+        "label": "Nice to have – would reduce some helpdesk tickets",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q13_c",
+        "label": "Important – users expect self-service capabilities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q13_d",
+        "label": "Critical – must be fully self-service",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.555Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q14",
+    "number": 14,
+    "text": "Which access control model(s) does your organization need?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q14_a",
+        "label": "Role-Based Access Control (RBAC)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q14_b",
+        "label": "Attribute-Based Access Control (ABAC)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q14_c",
+        "label": "Policy-Based Access Control (PBAC)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q14_d",
+        "label": "Zero Trust Network Access (ZTNA)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q14_e",
+        "label": "Just-In-Time (JIT) access provisioning",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q14_f",
+        "label": "Least privilege enforcement",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.573Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q15",
+    "number": 15,
+    "text": "What resources require access governance?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q15_a",
+        "label": "Web applications / SaaS tools",
+        "scores": {
+          "okta": 5,
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q15_b",
+        "label": "On-premise servers & infrastructure",
+        "scores": {
+          "sailpoint": 5,
+          "ping": 5,
+          "hashicorp": 5,
+          "oracle": 5
+        }
+      },
+      {
+        "id": "q15_c",
+        "label": "Databases & data warehouses",
+        "scores": {
+          "sailpoint": 5,
+          "oracle": 5
+        }
+      },
+      {
+        "id": "q15_d",
+        "label": "REST / GraphQL APIs",
+        "scores": {
+          "okta": 5,
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q15_e",
+        "label": "Cloud consoles (AWS, Azure, GCP)",
+        "scores": {
+          "okta": 5,
+          "entra": 5,
+          "sailpoint": 5,
+          "saviynt": 10
+        }
+      },
+      {
+        "id": "q15_f",
+        "label": "Network equipment / VPN",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q15_g",
+        "label": "File shares & collaboration tools",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q15_h",
+        "label": "DevOps pipelines & source code",
+        "scores": {
+          "sailpoint": 5,
+          "hashicorp": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.589Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q16",
+    "number": 16,
+    "text": "Do you need Identity Governance & Administration (IGA)?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q16_a",
+        "label": "Access request & approval workflows",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q16_b",
+        "label": "Periodic access reviews / certifications",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q16_c",
+        "label": "Separation of Duties (SoD) enforcement",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q16_d",
+        "label": "Role mining & optimization",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q16_e",
+        "label": "Compliance reporting (SOX, SOC2, etc.)",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q16_f",
+        "label": "Non-employee / contractor governance",
+        "scores": {
+          "sailpoint": 10
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.608Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q17",
+    "number": 17,
+    "text": "How important are automated access reviews to your organisation?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q17_a",
+        "label": "Not needed – manual reviews are sufficient",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q17_b",
+        "label": "Useful – would improve efficiency",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q17_c",
+        "label": "Important – needed for compliance programme",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q17_d",
+        "label": "Mandatory – required by audit framework",
+        "scores": {
+          "sailpoint": 10
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.630Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q18",
+    "number": 18,
+    "text": "How granular must your access policy enforcement be?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q18_a",
+        "label": "Coarse-grained – application-level access only",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q18_b",
+        "label": "Mid-grained – feature/module level within apps",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q18_c",
+        "label": "Fine-grained – data row / record level",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q18_d",
+        "label": "Field-level or attribute-level enforcement",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q18_e",
+        "label": "Unsure – needs assessment",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.648Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q19",
+    "number": 19,
+    "text": "Do you need policy simulation or 'what-if' access analysis?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q19_a",
+        "label": "Yes – mandatory before any policy change",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q19_b",
+        "label": "Yes – nice to have",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q19_c",
+        "label": "No – not required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q19_d",
+        "label": "Unsure",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.665Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Access Management & Governance",
+    "id": "q20",
+    "number": 20,
+    "text": "How many custom applications require integration with the IAM platform?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q20_a",
+        "label": "0 – no custom apps",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q20_b",
+        "label": "1–5 custom apps",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q20_c",
+        "label": "6–20 custom apps",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q20_d",
+        "label": "21–50 custom apps",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q20_e",
+        "label": "50+ custom apps",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.684Z"
+  },
+  {
+    "section": 4,
+    "sectionTitle": "Directory Services",
+    "id": "q21",
+    "number": 21,
+    "text": "What is your current directory infrastructure?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q21_a",
+        "label": "Microsoft Active Directory (on-prem)",
+        "scores": {
+          "entra": 10,
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q21_b",
+        "label": "Azure AD / Microsoft Entra ID",
+        "scores": {
+          "entra": 10,
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q21_c",
+        "label": "OpenLDAP",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q21_d",
+        "label": "Oracle Directory",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q21_e",
+        "label": "IBM Security Directory",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q21_f",
+        "label": "No directory – starting fresh",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q21_g",
+        "label": "Multiple directories (fragmented)",
+        "scores": {
+          "hashicorp": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.701Z"
+  },
+  {
+    "section": 4,
+    "sectionTitle": "Directory Services",
+    "id": "q22",
+    "number": 22,
+    "text": "What directory capabilities do you need?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q22_a",
+        "label": "Cloud-based universal directory",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q22_b",
+        "label": "Active Directory synchronization",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q22_c",
+        "label": "LDAP v3 compliance",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q22_d",
+        "label": "Multi-forest / multi-domain support",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q22_e",
+        "label": "Custom user attributes & schema",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q22_f",
+        "label": "Group policy management",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q22_g",
+        "label": "Real-time directory sync",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q22_h",
+        "label": "HR system mastering (Workday, SAP)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.719Z"
+  },
+  {
+    "section": 4,
+    "sectionTitle": "Directory Services",
+    "id": "q23",
+    "number": 23,
+    "text": "Do you have data residency or sovereignty requirements?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q23_a",
+        "label": "Yes – data must stay in EU / EEA",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q23_b",
+        "label": "Yes – data must stay in India (DPDP)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q23_c",
+        "label": "Yes – US-only data residency",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q23_d",
+        "label": "Yes – other region",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q23_e",
+        "label": "No specific requirement",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.739Z"
+  },
+  {
+    "section": 4,
+    "sectionTitle": "Directory Services",
+    "id": "q24",
+    "number": 24,
+    "text": "How important is 99.99%+ availability SLA for your directory?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q24_a",
+        "label": "Best-effort acceptable – some downtime tolerable",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q24_b",
+        "label": "Standard 99.9% SLA sufficient",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q24_c",
+        "label": "High availability – 99.95% SLA required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q24_d",
+        "label": "Mission-critical – 99.99%+ active-active required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.756Z"
+  },
+  {
+    "section": 4,
+    "sectionTitle": "Directory Services",
+    "id": "q25",
+    "number": 25,
+    "text": "Do you require directory-level audit logging?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q25_a",
+        "label": "Yes – full audit trail of all directory changes",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q25_b",
+        "label": "Yes – read-access logging as well",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q25_c",
+        "label": "Yes – integration with SIEM required",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q25_d",
+        "label": "No – not required currently",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.772Z"
+  },
+  {
+    "section": 5,
+    "sectionTitle": "Privileged Access Management (PAM)",
+    "id": "q26",
+    "number": 26,
+    "text": "What privileged access capabilities are required?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q26_a",
+        "label": "Privileged credential vaulting",
+        "scores": {
+          "cyberark": 10
+        }
+      },
+      {
+        "id": "q26_b",
+        "label": "Session isolation & recording",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q26_c",
+        "label": "Just-in-time (JIT) privilege elevation",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q26_d",
+        "label": "Secrets management (API keys, tokens)",
+        "scores": {
+          "okta": 5,
+          "cyberark": 10,
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q26_e",
+        "label": "Database credential rotation",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q26_f",
+        "label": "Vendor / third-party PAM",
+        "scores": {
+          "cyberark": 10
+        }
+      },
+      {
+        "id": "q26_g",
+        "label": "Endpoint privilege management",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q26_h",
+        "label": "Zero standing privileges (ZSP)",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q26_i",
+        "label": "Cloud privilege security (CIEM)",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q26_j",
+        "label": "DevOps secrets integration (Vault)",
+        "scores": {
+          "cyberark": 10,
+          "hashicorp": 10
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:17.792Z"
+  },
+  {
+    "section": 5,
+    "sectionTitle": "Privileged Access Management (PAM)",
+    "id": "q27",
+    "number": 27,
+    "text": "Who are the primary privileged users in scope?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q27_a",
+        "label": "IT system administrators",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q27_b",
+        "label": "Database administrators (DBAs)",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q27_c",
+        "label": "Cloud infrastructure engineers",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5,
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q27_d",
+        "label": "Application developers (CI/CD access)",
+        "scores": {
+          "cyberark": 5,
+          "hashicorp": 10
+        }
+      },
+      {
+        "id": "q27_e",
+        "label": "Third-party vendors / contractors",
+        "scores": {
+          "cyberark": 10
+        }
+      },
+      {
+        "id": "q27_f",
+        "label": "Security / SOC team analysts",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q27_g",
+        "label": "C-level executives (VIP accounts)",
+        "scores": {
+          "cyberark": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.215Z"
+  },
+  {
+    "section": 5,
+    "sectionTitle": "Privileged Access Management (PAM)",
+    "id": "q28",
+    "number": 28,
+    "text": "How critical is privileged session recording for your organisation?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q28_a",
+        "label": "Not needed – no recording requirement",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q28_b",
+        "label": "Useful – for investigation purposes",
+        "scores": {
+          "sailpoint": 5,
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q28_c",
+        "label": "Required – regulatory or policy mandate",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q28_d",
+        "label": "Mandatory – PCI-DSS / HIPAA / forensic audit requirement",
+        "scores": {
+          "sailpoint": 5,
+          "cyberark": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.238Z"
+  },
+  {
+    "section": 5,
+    "sectionTitle": "Privileged Access Management (PAM)",
+    "id": "q29",
+    "number": 29,
+    "text": "Do you require secrets management for DevOps / cloud-native pipelines?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q29_a",
+        "label": "Yes – Kubernetes / container secrets",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5,
+          "hashicorp": 10
+        }
+      },
+      {
+        "id": "q29_b",
+        "label": "Yes – Terraform / IaC credential injection",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5,
+          "hashicorp": 10
+        }
+      },
+      {
+        "id": "q29_c",
+        "label": "Yes – CI/CD pipeline tokens (GitHub, GitLab)",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5,
+          "hashicorp": 10
+        }
+      },
+      {
+        "id": "q29_d",
+        "label": "Yes – cloud provider secrets (AWS Secrets Manager integration)",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5,
+          "hashicorp": 10,
+          "saviynt": 5
+        }
+      },
+      {
+        "id": "q29_e",
+        "label": "No – traditional IT only",
+        "scores": {
+          "okta": 5,
+          "cyberark": 5,
+          "hashicorp": 10
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.256Z"
+  },
+  {
+    "section": 5,
+    "sectionTitle": "Privileged Access Management (PAM)",
+    "id": "q30",
+    "number": 30,
+    "text": "How important is Zero Standing Privileges (ZSP) / just-enough-access?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q30_a",
+        "label": "Not needed – standing admin accounts acceptable",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q30_b",
+        "label": "Useful – would improve security posture",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q30_c",
+        "label": "Important – moving towards ZSP model",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q30_d",
+        "label": "Mandatory – zero standing privileges required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.277Z"
+  },
+  {
+    "section": 5,
+    "sectionTitle": "Privileged Access Management (PAM)",
+    "id": "q31",
+    "number": 31,
+    "text": "Do you need endpoint privilege management (EPM) for desktops/servers?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q31_a",
+        "label": "Yes – Windows desktops",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q31_b",
+        "label": "Yes – macOS endpoints",
+        "scores": {
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q31_c",
+        "label": "Yes – Linux servers",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q31_d",
+        "label": "No – not in scope",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.297Z"
+  },
+  {
+    "section": 6,
+    "sectionTitle": "Compliance & Regulatory",
+    "id": "q32",
+    "number": 32,
+    "text": "Which compliance frameworks must your IAM solution support?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q32_a",
+        "label": "GDPR (EU data protection)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_b",
+        "label": "HIPAA (healthcare data)",
+        "scores": {
+          "sailpoint": 10,
+          "saviynt": 5
+        }
+      },
+      {
+        "id": "q32_c",
+        "label": "SOX (financial reporting controls)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_d",
+        "label": "PCI-DSS (payment card security)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_e",
+        "label": "ISO/IEC 27001",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_f",
+        "label": "SOC 2 Type II",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_g",
+        "label": "FedRAMP (US government cloud)",
+        "scores": {
+          "okta": 5,
+          "sailpoint": 5,
+          "oracle": 5,
+          "ibm": 5
+        }
+      },
+      {
+        "id": "q32_h",
+        "label": "NIST Cybersecurity Framework",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_i",
+        "label": "DPDP Act (India)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q32_j",
+        "label": "No specific compliance requirement",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.317Z"
+  },
+  {
+    "section": 6,
+    "sectionTitle": "Compliance & Regulatory",
+    "id": "q33",
+    "number": 33,
+    "text": "What audit and reporting capabilities do you require?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q33_a",
+        "label": "Immutable audit logs (tamper-proof)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q33_b",
+        "label": "Real-time security event alerts",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q33_c",
+        "label": "Pre-built compliance report templates",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q33_d",
+        "label": "SIEM integration (Splunk, Sentinel)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q33_e",
+        "label": "User behaviour analytics (UBA)",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q33_f",
+        "label": "Automated compliance dashboards",
+        "scores": {
+          "sailpoint": 10
+        }
+      },
+      {
+        "id": "q33_g",
+        "label": "Evidence export for external auditors",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.336Z"
+  },
+  {
+    "section": 6,
+    "sectionTitle": "Compliance & Regulatory",
+    "id": "q34",
+    "number": 34,
+    "text": "How frequently are you subject to external audits?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q34_a",
+        "label": "Never / ad-hoc only",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q34_b",
+        "label": "Annually",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q34_c",
+        "label": "Quarterly",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q34_d",
+        "label": "Monthly or more frequent",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q34_e",
+        "label": "Continuous / real-time audit monitoring required",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.357Z"
+  },
+  {
+    "section": 6,
+    "sectionTitle": "Compliance & Regulatory",
+    "id": "q35",
+    "number": 35,
+    "text": "Do you require AI/ML-based anomaly detection for compliance?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q35_a",
+        "label": "Yes – UEBA / insider threat detection",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q35_b",
+        "label": "Yes – real-time risk scoring per user",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q35_c",
+        "label": "Yes – automated SoD violation alerts",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q35_d",
+        "label": "No – rule-based is sufficient",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q35_e",
+        "label": "Unsure",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.375Z"
+  },
+  {
+    "section": 7,
+    "sectionTitle": "Deployment & Infrastructure",
+    "id": "q36",
+    "number": 36,
+    "text": "What is your preferred deployment model?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q36_a",
+        "label": "Cloud SaaS (fully managed)",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q36_b",
+        "label": "On-premise (self-hosted, full control)",
+        "scores": {
+          "ping": 5,
+          "oracle": 5
+        }
+      },
+      {
+        "id": "q36_c",
+        "label": "Hybrid (cloud + on-prem co-existence)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q36_d",
+        "label": "Open source (self-managed, no licensing)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.391Z"
+  },
+  {
+    "section": 7,
+    "sectionTitle": "Deployment & Infrastructure",
+    "id": "q37",
+    "number": 37,
+    "text": "Which cloud platforms are you using?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q37_a",
+        "label": "Amazon Web Services (AWS)",
+        "scores": {
+          "okta": 10,
+          "saviynt": 5
+        }
+      },
+      {
+        "id": "q37_b",
+        "label": "Microsoft Azure",
+        "scores": {
+          "okta": 5,
+          "entra": 10
+        }
+      },
+      {
+        "id": "q37_c",
+        "label": "Google Cloud Platform (GCP)",
+        "scores": {
+          "okta": 5,
+          "saviynt": 5
+        }
+      },
+      {
+        "id": "q37_d",
+        "label": "Multi-cloud strategy",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q37_e",
+        "label": "Private cloud / on-prem only",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q37_f",
+        "label": "Not yet on any cloud",
+        "scores": {
+          "okta": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.407Z"
+  },
+  {
+    "section": 7,
+    "sectionTitle": "Deployment & Infrastructure",
+    "id": "q38",
+    "number": 38,
+    "text": "Which systems must your IAM solution integrate with?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q38_a",
+        "label": "Active Directory / LDAP",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_b",
+        "label": "Microsoft 365 / Teams",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_c",
+        "label": "Workday / BambooHR (HR systems)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_d",
+        "label": "Salesforce",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_e",
+        "label": "ServiceNow (ITSM)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_f",
+        "label": "GitHub / GitLab / Bitbucket",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_g",
+        "label": "AWS IAM / Azure AD / GCP IAM",
+        "scores": {
+          "entra": 5,
+          "saviynt": 10
+        }
+      },
+      {
+        "id": "q38_h",
+        "label": "SAP / Oracle ERP",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_i",
+        "label": "Slack / Google Workspace",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q38_j",
+        "label": "Custom REST APIs",
+        "scores": {
+          "okta": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.425Z"
+  },
+  {
+    "section": 7,
+    "sectionTitle": "Deployment & Infrastructure",
+    "id": "q39",
+    "number": 39,
+    "text": "What is your organization's network architecture?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q39_a",
+        "label": "Fully cloud-native (no on-prem network)",
+        "scores": {
+          "okta": 5,
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q39_b",
+        "label": "Traditional perimeter (corporate network + VPN)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q39_c",
+        "label": "Zero trust / BeyondCorp model already adopted",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q39_d",
+        "label": "Split – some offices with on-prem, some cloud-only",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "q39_e",
+        "label": "Air-gapped / classified network environment",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.442Z"
+  },
+  {
+    "section": 7,
+    "sectionTitle": "Deployment & Infrastructure",
+    "id": "q40",
+    "number": 40,
+    "text": "Do you have a SIEM / SOC platform already in place?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q40_a",
+        "label": "Yes – Splunk",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q40_b",
+        "label": "Yes – Microsoft Sentinel",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q40_c",
+        "label": "Yes – IBM QRadar",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q40_d",
+        "label": "Yes – Elastic SIEM",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q40_e",
+        "label": "Yes – other",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q40_f",
+        "label": "No SIEM – planned",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q40_g",
+        "label": "No SIEM – not planned",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.462Z"
+  },
+  {
+    "section": 7,
+    "sectionTitle": "Deployment & Infrastructure",
+    "id": "q41",
+    "number": 41,
+    "text": "What is your container / Kubernetes maturity?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q41_a",
+        "label": "No containers in use",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q41_b",
+        "label": "Containers in dev/test only",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q41_c",
+        "label": "Kubernetes in production (limited)",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q41_d",
+        "label": "Kubernetes heavily used in production",
+        "scores": {
+          "hashicorp": 5
+        }
+      },
+      {
+        "id": "q41_e",
+        "label": "Service mesh (Istio, Linkerd) deployed",
+        "scores": {
+          "hashicorp": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.485Z"
+  },
+  {
+    "section": 8,
+    "sectionTitle": "Zero Trust & Security Architecture",
+    "id": "q42",
+    "number": 42,
+    "text": "What is your current zero trust maturity?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q42_a",
+        "label": "Zero trust not yet started",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q42_b",
+        "label": "Zero trust planned (next 12 months)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q42_c",
+        "label": "Identity-centric zero trust (identity is the perimeter)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q42_d",
+        "label": "Network zero trust deployed (ZTNA / SDP)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q42_e",
+        "label": "Full zero trust across identity, device, and network",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.508Z"
+  },
+  {
+    "section": 8,
+    "sectionTitle": "Zero Trust & Security Architecture",
+    "id": "q43",
+    "number": 43,
+    "text": "Do you require device trust / posture assessment as part of access decisions?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q43_a",
+        "label": "Yes – MDM enrollment required for access",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q43_b",
+        "label": "Yes – EDR health check required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q43_c",
+        "label": "Yes – certificate-based device trust",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q43_d",
+        "label": "No – user identity only",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q43_e",
+        "label": "Unsure",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.526Z"
+  },
+  {
+    "section": 8,
+    "sectionTitle": "Zero Trust & Security Architecture",
+    "id": "q44",
+    "number": 44,
+    "text": "How important is continuous access evaluation (CAE)?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q44_a",
+        "label": "Not needed – periodic re-auth is sufficient",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q44_b",
+        "label": "Useful – would improve security response",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q44_c",
+        "label": "Important – session risk signals should trigger review",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q44_d",
+        "label": "Mandatory – real-time revocation required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.570Z"
+  },
+  {
+    "section": 8,
+    "sectionTitle": "Zero Trust & Security Architecture",
+    "id": "q45",
+    "number": 45,
+    "text": "Do you have an existing threat intelligence or risk platform?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q45_a",
+        "label": "Yes – Microsoft Defender / Entra ID Protection",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q45_b",
+        "label": "Yes – CrowdStrike Falcon",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q45_c",
+        "label": "Yes – Palo Alto Cortex",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q45_d",
+        "label": "Yes – custom / other",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q45_e",
+        "label": "No – IAM is our primary risk signal",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.591Z"
+  },
+  {
+    "section": 9,
+    "sectionTitle": "AI & Automation Capabilities",
+    "id": "q46",
+    "number": 46,
+    "text": "Which AI/ML capabilities are important for your IAM programme?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q46_a",
+        "label": "AI-driven role mining & optimization",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q46_b",
+        "label": "Behavioural anomaly detection (UEBA)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q46_c",
+        "label": "Natural language access request processing",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q46_d",
+        "label": "Auto-remediation of access violations",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q46_e",
+        "label": "Risk-based adaptive authentication",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q46_f",
+        "label": "AI peer group analysis for access reviews",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q46_g",
+        "label": "Predictive access certification recommendations",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q46_h",
+        "label": "AI copilot for policy authoring",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.611Z"
+  },
+  {
+    "section": 9,
+    "sectionTitle": "AI & Automation Capabilities",
+    "id": "q47",
+    "number": 47,
+    "text": "How important is intelligent auto-certification of access reviews?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q47_a",
+        "label": "Not important – reviewers can manually certify all access",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q47_b",
+        "label": "Useful – would reduce reviewer fatigue",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q47_c",
+        "label": "Important – large review volumes make manual review impractical",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q47_d",
+        "label": "Critical – AI auto-certification is a core requirement",
+        "scores": {
+          "sailpoint": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.627Z"
+  },
+  {
+    "section": 9,
+    "sectionTitle": "AI & Automation Capabilities",
+    "id": "q48",
+    "number": 48,
+    "text": "Do you want natural language querying of IAM data?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q48_a",
+        "label": "Yes – business-friendly access to IAM insights",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q48_b",
+        "label": "Yes – for SOC/security team investigations",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q48_c",
+        "label": "Yes – for compliance officer reporting",
+        "scores": {
+          "sailpoint": 5
+        }
+      },
+      {
+        "id": "q48_d",
+        "label": "No – standard dashboard / reports sufficient",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.643Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q49",
+    "number": 49,
+    "text": "What is your annual IAM budget range?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q49_a",
+        "label": "Free / open source only",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q49_b",
+        "label": "< $10,000 per year",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q49_c",
+        "label": "$10,000 – $50,000 per year",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q49_d",
+        "label": "$50,000 – $250,000 per year",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q49_e",
+        "label": "$250,000 – $1,000,000 per year",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q49_f",
+        "label": "$1,000,000+ per year",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.665Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q50",
+    "number": 50,
+    "text": "What is your target go-live timeline?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q50_a",
+        "label": "Immediate (within 4 weeks)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q50_b",
+        "label": "Short-term (1–3 months)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q50_c",
+        "label": "Mid-term (3–6 months)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q50_d",
+        "label": "Long-term (6–12 months)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q50_e",
+        "label": "Strategic roadmap (12+ months)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.682Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q51",
+    "number": 51,
+    "text": "How important is avoiding vendor lock-in?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q51_a",
+        "label": "Not concerned – willing to adopt vendor-specific standards",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q51_b",
+        "label": "Mild concern – prefer open standards where available",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q51_c",
+        "label": "Important – open standards strongly preferred",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q51_d",
+        "label": "Critical – only open standards (OIDC, SCIM, SAML) acceptable",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.701Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q52",
+    "number": 52,
+    "text": "What is your tolerance for a multi-vendor IAM architecture?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q52_a",
+        "label": "Single vendor preferred – consolidated platform",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q52_b",
+        "label": "Two vendors acceptable (e.g. IGA + PAM separate)",
+        "scores": {
+          "sailpoint": 5,
+          "cyberark": 5
+        }
+      },
+      {
+        "id": "q52_c",
+        "label": "Multi-vendor – best of breed per domain",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q52_d",
+        "label": "Flexible – depends on pricing / capabilities",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.720Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q53",
+    "number": 53,
+    "text": "What level of vendor support is required?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q53_a",
+        "label": "Community / forum support only (open source)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q53_b",
+        "label": "Standard business-hours support",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q53_c",
+        "label": "24/7 enterprise support with SLA",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q53_d",
+        "label": "Dedicated TAM (Technical Account Manager)",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "q53_e",
+        "label": "Professional services / implementation partner required",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.741Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q54",
+    "number": 54,
+    "text": "Have you evaluated or shortlisted any vendors already?",
+    "type": "text",
+    "placeholder": "List any products already evaluated or shortlisted...",
+    "options": [],
+    "updatedAt": "2026-07-16T08:38:06.759Z"
+  },
+  {
+    "section": 10,
+    "sectionTitle": "Vendor & Commercial Considerations",
+    "id": "q55",
+    "number": 55,
+    "text": "What were the key failure points or gaps in any previous IAM deployment?",
+    "type": "text",
+    "placeholder": "Describe any previous IAM failures or lessons learned...",
+    "options": [],
+    "updatedAt": "2026-07-16T08:38:06.778Z"
+  },
+  {
+    "section": 11,
+    "sectionTitle": "Product Preference & Scoring",
+    "id": "q56",
+    "number": 56,
+    "text": "Rate each IAM capability on a scale of 1 (low) to 5 (critical):",
+    "type": "rating",
+    "options": [
+      {
+        "id": "r_sso",
+        "label": "Single Sign-On (SSO)",
+        "scores": {
+          "okta": 5,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_mfa",
+        "label": "Multi-Factor Authentication (MFA)",
+        "scores": {
+          "okta": 5,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_passwordless",
+        "label": "Passwordless / FIDO2 Authentication",
+        "scores": {
+          "okta": 5,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_iga",
+        "label": "Identity Governance (IGA)",
+        "scores": {
+          "sailpoint": 10,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_scim",
+        "label": "Automated Provisioning (SCIM)",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_pam",
+        "label": "Privileged Access Management (PAM)",
+        "scores": {
+          "cyberark": 10,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_session",
+        "label": "Session Recording & Monitoring",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_directory",
+        "label": "Cloud Directory / Universal Directory",
+        "scores": {
+          "okta": 5,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_api",
+        "label": "API & Developer SDKs",
+        "scores": {
+          "okta": 5,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_compliance",
+        "label": "Compliance Reporting & Audit Logs",
+        "scores": {
+          "sailpoint": 10,
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_zerotrust",
+        "label": "Zero Trust Architecture",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_siem",
+        "label": "SIEM Integration",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_ai",
+        "label": "AI / ML Anomaly Detection",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_secrets",
+        "label": "Secrets Management (DevOps)",
+        "scores": {
+          "cyberark": 5,
+          "ping": 5,
+          "forgerock": 5,
+          "hashicorp": 10
+        }
+      },
+      {
+        "id": "r_ciam",
+        "label": "CIAM / Customer Identity",
+        "scores": {
+          "okta": 5,
+          "ping": 10,
+          "forgerock": 10
+        }
+      },
+      {
+        "id": "r_epm",
+        "label": "Endpoint Privilege Management",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_adaptive",
+        "label": "Adaptive / Risk-based Authentication",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      },
+      {
+        "id": "r_certify",
+        "label": "Access Certification & Reviews",
+        "scores": {
+          "ping": 5,
+          "forgerock": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.797Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q57",
+    "number": 57,
+    "text": "Do you currently employ remote or hybrid workers?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "q_remote_yes",
+        "label": "Yes, our workforce is fully remote or hybrid.",
+        "scores": {
+          "entra": 5
+        }
+      },
+      {
+        "id": "q_remote_no",
+        "label": "No, all employees work on-site.",
+        "scores": {
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.818Z"
+  },
+  {
+    "section": 3,
+    "sectionTitle": "Advanced Cloud Security",
+    "id": "q58",
+    "number": 58,
+    "text": "What is your primary approach to managing cloud entitlements across multi-cloud environments (AWS, Azure, GCP)?",
+    "type": "checkbox",
+    "options": [
+      {
+        "id": "q_cloud_ent_native",
+        "label": "We rely heavily on native CSP tools (e.g., Azure AD Conditional Access, AWS IAM)",
+        "scores": {
+          "okta": 5,
+          "entra": 10,
+          "saviynt": 10
+        }
+      },
+      {
+        "id": "q_cloud_ent_iga",
+        "label": "We need unified, cross-cloud entitlement visibility, risk scoring, and zero-trust policies.",
+        "scores": {
+          "okta": 5,
+          "entra": 5,
+          "saviynt": 10
+        }
+      },
+      {
+        "id": "q_cloud_ent_legacy",
+        "label": "We are mostly on-premise and looking for a hybrid bridge rather than deep cloud governance.",
+        "scores": {
+          "okta": 5,
+          "entra": 10,
+          "sailpoint": 5,
+          "ping": 5,
+          "saviynt": 10,
+          "oracle": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.836Z"
+  },
+  {
+    "section": 4,
+    "sectionTitle": "Privileged Access Management",
+    "id": "q59",
+    "number": 59,
+    "text": "How does your organization currently manage administrative and privileged accounts?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "we_use_a_basic_password_vault_to_store_privileged_credentials",
+        "label": "We use a basic password vault to store privileged credentials.",
+        "scores": {
+          "cyberark": 10
+        }
+      },
+      {
+        "id": "we_dynamically_provision_just_in_time_jit_access_and_use_session_recording_for_all_privileged_access",
+        "label": " We dynamically provision Just-In-Time (JIT) access and use session recording for all privileged access.",
+        "scores": {
+          "cyberark": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.855Z"
+  },
+  {
+    "section": 1,
+    "sectionTitle": "Organization Profile",
+    "id": "q60",
+    "number": 60,
+    "text": "What is your primary strategy for managing third-party and contractor identities?",
+    "type": "radio",
+    "options": [
+      {
+        "id": "we_treat_them_exactly_like_internal_employees_fully_integrated",
+        "label": "We treat them exactly like internal employees (fully integrated).",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "we_use_a_separate_directory_and_manually_manage_their_access",
+        "label": " We use a separate directory and manually manage their access.",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      },
+      {
+        "id": "we_have_a_dedicated_b2b_b2c_identity_portal_with_delegated_administration",
+        "label": "We have a dedicated B2B/B2C identity portal with delegated administration.",
+        "scores": {
+          "okta": 5
+        }
+      },
+      {
+        "id": "we_don_t_have_a_strategy_yet_it_s_currently_a_major_security_risk_for_us",
+        "label": "We don't have a strategy yet; it's currently a major security risk for us.",
+        "scores": {
+          "okta": 5,
+          "entra": 5
+        }
+      }
+    ],
+    "updatedAt": "2026-07-16T08:38:06.874Z"
+  }
+]
